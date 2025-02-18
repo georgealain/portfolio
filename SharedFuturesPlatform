@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX Research Portfolio - Community Project Management Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .quote {
+            font-style: italic;
+            color: #555;
+            margin: 10px 0;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Community Project Management Platform</h1>
+        
+        <div class="section">
+            <h2>Project Overview</h2>
+            <p>The Community Project Management Platform was designed to empower adult users in Ireland and England to collaborate on local projects. This platform aimed to streamline task and resource management, geo-tag assets, facilitate knowledge management, and provide 3D visual urban design features. The project primarily supported small-sized NGOs, which often face challenges such as limited funding, lack of project management experience, insufficient resources, and low digital literacy among staff and beneficiaries.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Requirement Gathering</h2>
+            <p>To thoroughly understand the needs and challenges of these NGOs, I led an extensive requirement gathering process. This involved conducting 7 focus groups, 36 interviews, and 8 workshops across six cities, engaging over 80 participants. We developed surveys and user personas to capture diverse user needs and preferences. This comprehensive approach ensured that we gathered valuable insights from a wide range of stakeholders.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Explore Stage</h2>
+            <ul>
+                <li><strong>Contextual Inquiry and Ethnographic Observation:</strong> I visited five different NGOs, immersing myself in their daily operations, meeting discussions, data handling, and interactions. This approach provided a deep understanding of the hierarchical relationships and the overall context within these organizations.</li>
+                <li><strong>Focus Groups and Workshops:</strong> We conducted workshops where participants discussed project planning. This allowed us to observe their processes, identify problems, and understand their support systems.</li>
+                <li><strong>Interviews:</strong> We conducted interviews with participants who had special expertise, project champions, and those unable to attend group activities. These interviews provided in-depth insights and ensured we captured diverse perspectives.</li>
+                <li><strong>Surveys:</strong> We gathered data on demographics, project nature, tools and devices used, locations, internet connectivity, and digital competence. This information was crucial for customizing the app to meet the diverse needs of its users.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Data Analysis</h2>
+            <p>We conducted a thematic analysis on all collected data, including transcripts, scans, ethnography notes, and recordings. This analysis resulted in a comprehensive breakdown of key themes:</p>
+            <ul>
+                <li>Audience & Demography</li>
+                <li>Workflow</li>
+                <li>Resources</li>
+                <li>Challenges</li>
+                <li>Suggested Features</li>
+                <li>Challenges impacting future research and design</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Research Challenges</h2>
+            <ul>
+                <li><strong>Geographical Communication Challenges:</strong> Users had difficulty articulating their specific needs and preferences.</li>
+                <li><strong>Too Many Partners, Without a Clear Hierarchy:</strong> Continuous negotiations and communication were necessary to develop a clear hierarchy.</li>
+                <li><strong>Focus on Rapid Delivery Missing Critical Design KPIs:</strong> Regular usability tests and meetings with users provided data-driven arguments to stakeholders, showcasing the importance of specific design aspects.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Ideation & Design</h2>
+            <ol>
+                <li>
+                    <strong>Need for Communication and Organisation:</strong>
+                    <p class="quote">“We use multiple tools, including WhatsApp that I prefer to keep personal... too many discussions in one place” – Research participant at a workshop.</p>
+                    <p><strong>Solution:</strong> Introduced features like chat, private messages, multimedia sharing, and task assignment, all organized by project stage and main discussion types.</p>
+                </li>
+                <li>
+                    <strong>Lack of Experience and Support Resulting in Lack of Motivation:</strong>
+                    <p class="quote">“I often don’t know where to start from, who to ask, what to do” – Research participant at a workshop.</p>
+                    <p><strong>Solution:</strong> Supported the core pillars of motivation (Autonomy, Competence, and Relatedness) by introducing tagged supportive resources, a supportive bot, and existing templates. The bot provided template documents, resources, and suggestions for new projects, stages, or ideas.</p>
+                </li>
+                <li>
+                    <strong>Need to Feel the Relevance of Available Projects Around Users:</strong>
+                    <p><strong>Solution:</strong> Developed interactive maps showcasing nearby projects, resources, mentors, and ideas.</p>
+                </li>
+                <li>
+                    <strong>Lack of Free Tools to Visually Redesign Spaces:</strong>
+                    <p class="quote">“Half of the projects we work on involve redesigning a space. We sketch using pen and paper, or some limited mobile apps.”</p>
+                    <p><strong>Solution:</strong> Introduced a remix tool allowing users to visually co-design spaces by mixing real views with added digital items.</p>
+                </li>
+            </ol>
+        </div>
+        
+        <div class="section">
+            <h2>Testing & Evaluation</h2>
+            <p>We conducted usability testing on mobile and desktop platforms, including log analysis. The testing and evaluation stage highlighted several issues:</p>
+            <ul>
+                <li>Low user error tolerance</li>
+                <li>Lack of onboarded projects</li>
+                <li>Numerous unfinished projects</li>
+                <li>User accounts locked due to existing limitations</li>
+                <li>Lack of clarity in several data fields</li>
+                <li>Responsiveness issues</li>
+                <li>List of bugs</li>
+            </ul>
+            <p>Developers, designers, and other team members were invited to participate in the usability testing sessions. Initially, we planned a series of 10 detailed usability testing sessions with Champion users, but ultimately conducted 4 of them. The data collected provided strong evidence to support the need for redesigning certain aspects of the app workflow, particularly addressing postcode limitations. Additionally, it highlighted the necessity for changes in the decision-making hierarchy among the partners.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Outcome</h2>
+            <p>The project successfully expanded from Ireland to England, supporting mental health initiatives with added features such as heatmaps. The platform saw an 850% increase in onboarded projects across both countries. Despite challenges such as geographical communication issues, lack of clear hierarchy among partners, and a focus on rapid delivery, continuous negotiations, iterative design, and data-driven arguments ensured the project's success. The app's redesign, informed by usability testing and evaluation, led to a significantly improved user experience and more efficient workflows.</p>
+        </div>
+    </div>
+</body>
+</html>
